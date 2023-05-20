@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Social Media Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: lightgoldenrodyellow;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+   
+    .message-box {
+      width: 400px;
+      background-color: #f2f2f2;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      background-image: url("background.jpg"); 
+      background-size: cover;
+    }
+    .message-box h2 {
+      font-size: 24px;
+      margin: 0 0 10px;
+      color: #333;
+    }
+    .message-box p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+      color: #555;
+    }
+    .message-box input[type="text"],
+    .message-box textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      font-size: 14px;
+      color: #333;
+    }
+    .message-box input[type="text"] {
+      width: calc(100% - 20px);
+    }
+    .message-box textarea {
+      height: 100px;
+    }
+    .message-box button {
+      display: block;
+      width: 100%;
+      padding: 10px 0;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .message-box button:hover {
+      background-color: #0069d9;
+    }
+  
+
+.panel {
+    background-color: #f1f1f1;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.panel a {
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.panel a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+  </style>
+</head>
+<body>
+  <div class="panel">
+    <a href="website.html">Home</a>
+    </div>
+  
+  <div class="message-box">
+    <h2>Contact Us</h2>
+    <p>Have any questions or feedback? Please send us a message.</p>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</body>
+</html>

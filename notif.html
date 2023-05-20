@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notification Screen</title>
+    <style>
+        /* CSS for the notification screen */
+        body {
+            background-color: lightgoldenrodyellow;
+            font-family: Arial, sans-serif;
+        }
+
+        .notification {
+            background-color: #f7f7f7;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            display: flex;
+            align-items: center;
+        }
+
+        .notification:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .notification h3 {
+            margin: 0 0 5px;
+            color: #333;
+        }
+
+        .notification p {
+            margin: 0;
+            color: #777;
+        }
+
+        .notification img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .panel {
+    background-color: #f1f1f1;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.panel a {
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.panel a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+    </style>
+</head>
+<body>
+    <div class = "panel">
+        <a href="website.html">Back</a>
+    </div>
+    <div class="notification">
+        <img src="tom.jpeg" alt="Profile Picture">
+        <div>
+            <h3>New Follower</h3>
+            <p>Tom Holland started following you.</p>
+        </div>
+    </div>
+
+    <div class="notification">
+        <img src="shane.jpeg" alt="Profile Picture">
+        <div>
+            <h3>New Message</h3>
+            <p>You have received a new message from Shane Dawson.</p>
+        </div>
+    </div>
+
+    <div class="notification">
+        <img src="kev.jpeg" alt="Profile Picture">
+        <div>
+            <h3>New Post</h3>
+            <p>Your friend Kevin Hart has posted a new photo.</p>
+        </div>
+    </div>
+
+
+</body>
+</html>
